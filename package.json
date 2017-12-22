@@ -1,0 +1,24 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "Microservice architecture application concerned with authentication and download of image",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "gm": "^1.23.0",
+    "image-downloader": "^3.3.0",
+    "json-patch": "^0.7.0",
+    "jsonwebtoken": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "rahul kumar",
+  "license": "ISC"
+}
